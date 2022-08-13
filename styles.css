@@ -1,0 +1,25 @@
+/* styles.css*/
+* {
+    background-color: rgb(43, 0, 43);
+    color: red
+}
+#title{
+    text-align: center;
+    font-size: 60px
+   
+}
+#list .clm {
+    color: rgb(5, 119, 1);
+}
+#list .ccb {
+    color: yellow;
+}
+#list .sbb {
+    color: black
+}
+.recipe-list {
+    font-size: 40px
+}
+h2 {
+    text-align: center;
+}
