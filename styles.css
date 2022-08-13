@@ -26,3 +26,9 @@ h2 {
     font-size: 25px;
     font-weight: bold
 }
+.button {
+    font-size: 35px;
+    text-align: center;
+    background-color: grey;
+    color: black
+}
