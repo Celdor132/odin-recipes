@@ -5,11 +5,12 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 5px;
     margin: 5px;
+    justify-content: center;
 }
 
 #title {
     text-align: center;
-    font-size: 60px;
+    font-size: 100px;
     font-weight: 900;
     margin-top: 2px;
     border-bottom: 3px solid black;
@@ -19,7 +20,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
     border: 5px solid red;
     padding: 0px;   
 
@@ -34,23 +34,29 @@ a:visited {
 a:hover { 
     color: pink;
 
+
 }
 a:active { 
     text-decoration: none; 
 }
+.flex-container{
+    display: block;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+    border: 3px solid rgba(200,200,200,.3);
+    flex: 1;
+    width: 450px;
+    font-size: 50px;
+    background-color: rgb(80, 1, 80);
+    list-style: none;
+}
+.flex-item {
+    display:flex;
+    text-align: center;
+    width: 440px;
+}
 
-#list .clm {
-    color: rgb(5, 119, 1);
-}
-#list .ccb {
-    color: yellow;
-}
-#list .sbb {
-    color: black
-}
-.recipe-list {
-    font-size: 40px
-}
 h2 {
     font-size: 25px;
     font-weight: bold;
@@ -68,8 +74,4 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     width: 100%
-}
-span {
-    background-color: green;
-    border: 2px dotted yellow;
 }
