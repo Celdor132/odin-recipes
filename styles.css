@@ -1,7 +1,7 @@
 /* styles.css*/
 * {
     background-color: rgb(43, 0, 43);
-    color: red;
+    color: rgb(235, 11, 11);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 5px;
     margin: 5px;
@@ -21,7 +21,7 @@
     margin-left: auto;
     margin-right: auto;
     border: 5px solid red;
-    padding: 0px;   
+    padding: 5px;   
 
 }
 a:link { 
